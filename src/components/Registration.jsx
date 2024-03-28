@@ -57,14 +57,7 @@ const Registration = () => {
                             <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Create Account</button>
                         </div>
 
-                        <div className="text-center text-gray-800">
-                            Already have an account?
-                            <span
-                                className="text-black text-md font-bold hover:text-blue-500 "
-                            >
-                                Login
-                            </span>
-                        </div>
+                        
                     </form>
                 </section>
             </div>
