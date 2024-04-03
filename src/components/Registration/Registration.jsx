@@ -1,9 +1,9 @@
 import React from 'react'
-import Signup from '../assests/signup.jpg'
+import Signup from '../../assests/signup.jpg'
 
 const Registration = () => {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-white">
+        <div className="min-h-screen flex items-center justify-center bg-slate-100">
             <div className="relative flex flex-col m-5 space-y-8 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 ">
                 <section className=" relative">
                     <img
@@ -56,8 +56,6 @@ const Registration = () => {
                         <div class="text-center">
                             <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Create Account</button>
                         </div>
-
-                        
                     </form>
                 </section>
             </div>

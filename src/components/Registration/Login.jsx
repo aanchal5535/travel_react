@@ -1,12 +1,12 @@
 'use client'
 import { FcGoogle } from 'react-icons/fc'
-import LoginImage from '../assests/maldives2.jpg'
+import LoginImage from '../../assests/maldives2.jpg'
 
 
 export default function Login() {
  
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#f9f4f1] ">
+    <div className="min-h-screen flex items-center justify-center bg-slate-100 ">
       <div className="relative flex flex-col m-6 space-y-8 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 overflow-hidden">
         <section className=" relative">
           <img

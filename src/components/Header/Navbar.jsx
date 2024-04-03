@@ -28,7 +28,10 @@ const Navbar = () => {
     <NavLink to='/about' className='p-4 cursor-pointer text-lg' > About Us</NavLink>
    </li>
    <li>
-    <NavLink to='/' className='p-4 cursor-pointer text-lg' > Services</NavLink>
+    <NavLink to='/blogs' className='p-4 cursor-pointer text-lg' > Blogs</NavLink>
+   </li>
+   <li>
+    <NavLink to='/places' className='p-4 cursor-pointer text-lg' > Places</NavLink>
    </li>
    <li>
     <NavLink to='/contact' className='p-4 cursor-pointer text-lg' > Contact</NavLink>
@@ -59,7 +62,10 @@ const Navbar = () => {
     <NavLink to='/about' className='border-b' > About Us</NavLink>
    </li>
    <li>
-    <NavLink to='/blog' className='border-b' > Blog</NavLink>
+    <NavLink to='/blogs' className='border-b' > Blog</NavLink>
+   </li>
+   <li>
+    <NavLink to='/places' className='border-b' > Places</NavLink>
    </li>
    <li>
     <NavLink to='/contact' className='border-b' > Contact</NavLink>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineSearch } from 'react-icons/ai';
-import LandingImage from '../assests/borabora.jpg'
+import LandingImage from '../../assests/borabora.jpg'
 
 const Landing = () => {
   return (

@@ -36,7 +36,7 @@ const items = [
 
 const Footer = () => {
   return (
-    <div className="w-full mt-24 bg-slate-900 text-gray-300 py-y px-2">
+    <div className="w-full mt-5 bg-slate-900 text-gray-300 py-y px-2">
       <div className="max-w-full mx-auto px-4 grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8">
         {sections.map((section, index) => (
           <div key={index}>

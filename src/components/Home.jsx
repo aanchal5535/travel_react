@@ -1,23 +1,25 @@
 import React from 'react'
-import Carousel from './Carousel'
-import Landing from './Landing'
-import Destinations from './Destination'
-import Search from './Search'
-import Select from './Select'
-import Testimonals from './Testimonals'
+import Carousel from './Hero/Carousel'
+import Landing from './Hero/Landing'
+import Destinations from './Hero/Destination'
+import Search from './Hero/Search'
+import Select from './Hero/Select'
+import Testimonals from './Hero/Testimonals'
+import Faq from './Hero/Faq'
 
 
 const Home = () => {
   return (
-    <>
+    <div className='bg-slate-100'>
     <Landing/>
-    <Destinations/>
     <Search/>
+    <Destinations/>
     <Select/>
+    <Faq/>
     <Carousel/>
     <Testimonals/>
-   
-    </>
+    </div>
+  
   )
 }
 
